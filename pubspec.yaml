@@ -1,0 +1,41 @@
+name: dart_scrapy
+description: A high-performance web scraping framework for Dart, inspired by Scrapy
+version: 0.1.0
+homepage: https://github.com/dartscrapy/dartscrapy
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  http: ^1.1.0
+  html: ^0.15.4
+  csslib: ^1.0.0
+  collection: ^1.17.2
+  logging: ^1.2.0
+  meta: ^1.9.1
+  path: ^1.8.3
+  async: ^2.11.0
+  uuid: ^3.0.7
+  crypto: ^3.0.3
+
+  # 用于并发控制
+  pool: ^1.5.1
+  
+ # 用于数据存储
+  sqflite: ^2.3.0
+  hive: ^2.2.3
+  
+  # 用于缓存
+  redis: ^3.1.0
+  
+  # 用于配置管理
+  yaml: ^3.1.2
+  
+dev_dependencies:
+  test: ^1.25.0
+  mockito: ^5.4.0
+  build_runner: ^2.4.0
+  lints: ^2.1.0
+
+# dependency_overrides:
+#   test_api: ^0.6.0
