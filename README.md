@@ -21,15 +21,17 @@
 ```yaml
 dependencies:
   dartscrapy:
-    path: ../dartscrapy
+    path: ../darts_crapy
 ```
+
+
 
 ## 🚀 快速开始
 
 ### 1. 创建爬虫
 
 ```dart
-import 'package:dartscrapy/dartscrapy.dart';
+import 'package:dartscrapy/darts_crapy.dart';
 
 class MySpider extends Spider {
   @override
@@ -455,12 +457,10 @@ try {
 ### 开发环境
 
 ```bash
-git clone https://github.com/yourname/dartscrapy.git
+git clone https://github.com/yourname/darts_crapy.git
 cd dartscrapy
 dart pub get
 dart test
-```
-
 ## 📄 许可证
 
 MIT License - 详见 [LICENSE](LICENSE) 文件
@@ -470,8 +470,7 @@ MIT License - 详见 [LICENSE](LICENSE) 文件
 - 灵感来源于 [Scrapy](https://scrapy.org/)
 - 感谢Dart社区的支持
 
-## 📞 联系方式
+---
 
-- 项目主页: [GitHub](https://github.com/yourname/dartscrapy)
-- 文档: [Wiki](https://github.com/yourname/dartscrapy/wiki)
-- Issue: [Issues](https://github.com/yourname/dartscrapy/issues)
+**注意：** 本项目中的部分代码（特别是示例代码和配置片段）由AI辅助生成。
+```
